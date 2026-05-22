@@ -1,0 +1,95 @@
+/* STILE GLOBALE DELLE CARD (HOME E NOTE) */
+.premium-card {
+    background: linear-gradient(135deg, #1e1b4b 0%, #111827 100%) !important;
+    padding: 24px !important;
+    border-radius: 16px !important;
+    border: 1px solid #4338ca !important;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4) !important;
+    margin-bottom: 15px !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.premium-card:hover {
+    transform: translateY(-3px) !important;
+    box-shadow: 0 12px 30px rgba(67, 56, 202, 0.35) !important;
+}
+
+.premium-card h3 {
+    color: #a5b4fc !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    margin: 0 !important;
+    letter-spacing: 0.5px !important;
+}
+
+.premium-card p {
+    color: #ffffff !important;
+    font-size: 32px !important;
+    font-weight: 800 !important;
+    margin: 10px 0 0 0 !important;
+}
+
+/* BANNER DI BENVENUTO (HERO) */
+.hero-banner {
+    background: linear-gradient(90deg, #4f46e5 0%, #7c3aed 100%) !important;
+    padding: 32px !important;
+    border-radius: 24px !important;
+    color: white !important;
+    margin-bottom: 25px !important;
+    box-shadow: 0 15px 30px rgba(79, 70, 229, 0.25) !important;
+}
+
+.hero-banner h1 {
+    color: #ffffff !important;
+    margin: 0 !important;
+    font-size: 32px !important;
+}
+
+.hero-banner p {
+    color: #e0e7ff !important;
+    margin: 8px 0 0 0 !important;
+    opacity: 0.9 !important;
+    font-size: 16px !important;
+}
+
+/* NOTIFHE E BLOCCO NOTE (STILE POST-IT MINIMALISTA) */
+.custom-note {
+    background-color: #1f2937 !important;
+    border-left: 5px solid #f97316 !important;
+    padding: 18px !important;
+    border-radius: 4px 12px 12px 4px !important;
+    margin-bottom: 15px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* PERSONALIZZAZIONE GENERALE DI STREAMLIT */
+.stApp {
+    background-color: #0f172a !important; 
+}
+
+.block-container {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+.stTextInput input, .stTextArea textarea {
+    background-color: #1e293b !important;
+    color: #f8fafc !important;
+    border: 1px solid #334155 !important;
+    border-radius: 8px !important;
+}
+
+.stTextInput input:focus, .stTextArea textarea:focus {
+    border-color: #6366f1 !important;
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.5) !important;
+}
+
+.stButton button {
+    border-radius: 8px !important;
+    transition: background-color 0.2s, transform 0.1s !important;
+}
+
+.stButton button:hover {
+    transform: scale(1.01) !important;
+}
